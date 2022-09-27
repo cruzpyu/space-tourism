@@ -10,7 +10,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.tech__buttons button {
+.tech__button {
     border-radius: 50%;
     width: 80px;
     height: 80px;
@@ -22,6 +22,11 @@
     text-align: center;
     margin: 30% 0;
     cursor: pointer;
+}
+
+.button-active {
+    background-color: white;
+    color: black;    
 }
 
 .tech__buttons button:hover {
@@ -81,9 +86,9 @@
 .tech__description {
     font-family: 'Barlow condensed';
     font-style: normal;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 36px;
     color: #D0D6F9;
     font-weight: lighter;
-    width: 80%;
+    width: 75%;
 }

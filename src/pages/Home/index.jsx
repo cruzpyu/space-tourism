@@ -1,6 +1,8 @@
 import "./style.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate();
   return (
     <div className="home__container">
       <main className="main">
@@ -16,7 +18,7 @@ export default function Home() {
         </div>
 
         <div className="home__button-container">
-          <button className="home__button">Explore</button>
+          <button className="home__button" onClick={()=> navigate("/destination")}>Explore</button>
         </div>
       </main>
     </div>

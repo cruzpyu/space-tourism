@@ -16,7 +16,11 @@ export default function Technology() {
       <div className="content-container">
         <div className="tech__buttons">
           {technology.map((item, index) => (
-            <button key={index} onClick={() => setValue(index)}>
+            <button
+              className={` tech__button ${index === value && "button-active"}`}
+              key={index}
+              onClick={() => setValue(index)}
+            >
               {index + 1}
             </button>
           ))}

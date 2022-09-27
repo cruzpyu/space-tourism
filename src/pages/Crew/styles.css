@@ -4,27 +4,33 @@
     background-image: url("../../assets/crew/background-crew-desktop.jpg");
     background-size: cover;
 }
+
 main {
     display: flex;
     width: 100%;
     align-items: flex-end;
     height: 100vh;
     padding: 0 8%;
-  
 }
+
 .crew__text-content {
     width: 50%;
-
 }
-.crew__buttons {
-  border-radius: 50%;
-  border: none;
-  background-color: #ffffff;
-  opacity: 0.17;
-  width: 20px;
-  height: 20px;
-  margin: 6% 3% 10%;
 
+.crew__buttons {
+    border-radius: 50%;
+    border: none;
+    background-color: #ffffff;
+    opacity: 0.17;
+    width: 20px;
+    height: 20px;
+    margin: 6% 3% 10%;
+    cursor: pointer;
+}
+
+
+.crew__buttons-active {
+    opacity: 1;
 }
 
 .crew__title,
@@ -39,7 +45,7 @@ main {
     font-family: "Barlow Condensed";
     font-weight: 400;
     color: #ffffff;
-margin-bottom: 9%
+    margin-bottom: 9%
 }
 
 .crew__title::before {
@@ -82,7 +88,8 @@ margin-bottom: 9%
 .crew__picture {
     width: 50%;
 }
+
 .crew__picture img {
-width: 61%;
-margin-left: 5%;
+    width: 61%;
+    margin-left: 5%;
 }

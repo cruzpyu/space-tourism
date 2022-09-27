@@ -19,7 +19,7 @@ export default function Crew() {
           </div>
 
           {people.map((element, index) => (
-            <button className="crew__buttons" key={index} onClick={()=> setValue(index)}></button>
+            <button className={`crew__buttons ${index===value && "crew__buttons-active"}`} key={index} onClick={()=> setValue(index)}></button>
           ))}
         </div>
         <div className="crew__picture">

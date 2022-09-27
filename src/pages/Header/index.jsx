@@ -1,11 +1,13 @@
 import Logo from "../../assets/shared/logo.svg";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./style.css";
 
 export default function Header() {
   return (
     <header className="header">
-      <img src={Logo} alt="A star" className="logo" />
+      <Link to="/">
+        <img src={Logo} alt="A star" className="logo" />
+      </Link>
       <div className="horizontal-line"></div>
       <nav className="nav">
         <NavLink to="/" end className="nav__item nav__item-00">

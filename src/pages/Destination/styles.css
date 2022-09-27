@@ -55,6 +55,9 @@
 }
 .nav__destination {
     padding-bottom: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 .title,
 .travel-time__value,

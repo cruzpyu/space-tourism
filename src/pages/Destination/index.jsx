@@ -1,5 +1,4 @@
 import "./styles.css";
-import { NavLink } from "react-router-dom";
 import data from "../../data.json";
 import { useState } from "react";
 
@@ -17,13 +16,13 @@ export default function Destination() {
       <div className="block__right">
         <nav>
           {planets.map((item, index) => (
-            <NavLink
+            <button
             className={`nav__destination ${index === value && "border-active"} `}
               key={index}
               onClick={() => setValue(index)}
             >
               {item.name}
-            </NavLink>
+            </button>
           ))}
         </nav>
         <div className="planet__information">
