@@ -27,9 +27,6 @@
   justify-content: center;
 
 }
-.nav ul {
-  display: flex;
-}
 .nav__item {
   color: rgba(255, 255, 255, 0.8);
   font-size: 1rem;
@@ -39,14 +36,14 @@
   cursor: pointer;
   padding: 35px 0;
   font-family: "Barlow Condensed", sans-serif;
+  text-decoration: none;
+  border: none;
+  text-transform: uppercase;
 }
 .nav__item:hover  {
   padding: 35px 0 32px;
   border-bottom: 3px solid rgba(255, 255, 255, 0.5);
   color: rgb(255, 255, 255);  
-}
-.nav__item {
-  text-transform: uppercase;
 }
 .nav__item::before {
   font-weight: bold;
