@@ -9,7 +9,7 @@ export default function Technology() {
   const { name, images, description } = technology[value];
 
   return (
-    <div className="tech__container">
+    <div className="tech__container container">
       <div className="title-container">
         <h1 className="tech__title">Space Launch 101</h1>
       </div>

@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 export default function Home() {
   const navigate = useNavigate();
   return (
-    <div className="home__container">
+    <div className="home__container container">
       <main className="main">
         <div className="home__text">
           <h2>So, you want to travel to</h2>

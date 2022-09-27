@@ -1,95 +1,92 @@
 .crew__container {
-    height: 100vh;
-    width: 100%;
-    background-image: url("../../assets/crew/background-crew-desktop.jpg");
-    background-size: cover;
+  background-image: url("../../assets/crew/background-crew-desktop.jpg");
 }
 
-main {
-    display: flex;
-    width: 100%;
-    align-items: flex-end;
-    height: 100vh;
-    padding: 0 8%;
-}
-
-.crew__text-content {
-    width: 50%;
+.crew__main {
+  align-items: flex-end;
+  display: flex;
+  height: 100vh;
+  padding: 0 8%;
+  width: 100%;
 }
 
 .crew__buttons {
-    border-radius: 50%;
-    border: none;
-    background-color: #ffffff;
-    opacity: 0.17;
-    width: 20px;
-    height: 20px;
-    margin: 6% 3% 10%;
-    cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  height: 20px;
+  margin: 6% 3% 10%;
+  opacity: 0.17;
+  width: 20px;
 }
 
+.crew__buttons:hover,
+.crew__title::before,
+.crew__role {
+  opacity: 0.5;
+}
 
 .crew__buttons-active {
-    opacity: 1;
+  opacity: 1;
+}
+
+.crew__title {
+  color: #ffffff;
+  font-family: "Barlow Condensed";
+  font-weight: 400;
+  margin-bottom: 9%;
 }
 
 .crew__title,
 .crew__title::before {
-    font-size: 1.75rem;
-    line-height: 2.125rem;
-    letter-spacing: 0.295rem;
-    text-transform: uppercase;
-}
-
-.crew__title {
-    font-family: "Barlow Condensed";
-    font-weight: 400;
-    color: #ffffff;
-    margin-bottom: 9%
+  font-size: 1.75rem;
+  letter-spacing: 0.295rem;
+  line-height: 2.125rem;
+  text-transform: uppercase;
 }
 
 .crew__title::before {
-    content: "02";
-    font-weight: 700;
-    opacity: 0.5;
-    margin-right: 1.5%;
+  content: "02";
+  font-weight: 700;
+  margin-right: 1.5%;
 }
 
-.crew__office {
-    font-family: "playfair display", serif;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 2.313rem;
-    text-transform: uppercase;
-    color: #ffffff;
-    opacity: 0.5;
+.crew__text-content {
+  width: 50%;
+}
+
+.crew__role,
+.crew__name {
+  color: var(--white);
+  font-family: "Bellefair", serif;
+  text-transform: uppercase;
+}
+
+.crew__role {
+  font-size: 1.5rem;
+  line-height: 2.313rem;
 }
 
 .crew__name {
-    font-family: "playfair display", serif;
-    font-weight: 400;
-    font-size: 2.5rem;
-    line-height: 4rem;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-bottom: 4%;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  margin-bottom: 4%;
 }
 
-.crew__description {
-    font-family: "Barlow", sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 2rem;
-    color: var(--soft-purple);
-    width: 570px;
-    margin: 4% 0;
+.crew__bio {
+  color: var(--soft-purple);
+  font-family: "Barlow", sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  line-height: 2rem;
+  margin: 4% 0;
+  width: 570px;
 }
 
 .crew__picture {
-    width: 50%;
+  width: 50%;
 }
-
 .crew__picture img {
-    width: 61%;
-    margin-left: 5%;
+  margin-left: 5%;
+  width: 61%;
 }

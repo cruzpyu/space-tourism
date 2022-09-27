@@ -1,8 +1,5 @@
 .home__container {
     background-image: url("../../assets/home/background-home-desktop.jpg");
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
     font-family: "Barlow Condensed", sans-serif;
   }
   .main {
@@ -10,16 +7,17 @@
     display: flex;
     height: 100vh;
     justify-content: space-between;
-    padding: 10% 6% 0 4%;
+    padding: 10% 6% 0 10%;
 }
 .home__text {
     color: var(--white);
-    width: 32%;
+    width: 40%;
 }
 .home__text h1 {
-    font-family: "Playfair Display", serif;
+    color: var(--0white);
+    font-family: "Bellefair", serif;
     font-size: 7rem;
-    color: var(--white);
+    font-weight: 400;
     margin: 4% 0;
 }
 .home__text h2 {
@@ -28,10 +26,11 @@
 }
 .home__text h4 {
     color: var(--soft-purple);
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: 1.3rem;
+    font-weight: lighter;
     line-height: 2rem;
     text-align: justify;
+
 }
 .home__button,
 .home__button-container {
@@ -42,11 +41,10 @@
 .home__button {
     border: none;
     color: var(--dark-blue);
-    font-family: "playfair display", serif;
-    font-size: 1.5rem;
+    font-family: "Bellefair", serif;
+    font-size: 1.7rem;
     font-weight: 500;
     letter-spacing: 0.3rem;
-    cursor: pointer;
 }
 .home__button-container {
     align-items: center;

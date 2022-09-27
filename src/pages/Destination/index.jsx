@@ -8,7 +8,7 @@ export default function Destination() {
   const [value, setValue] = useState(0);
   const { name, images, description, distance, travel } = planets[value];
   return (
-    <div className="destination__container">
+    <div className="destination__container container">
       <div className="block__left">
         <p className="text">Pick your destination</p>
         <img src={images.png} alt={name} className="planet__img" title={name} />
