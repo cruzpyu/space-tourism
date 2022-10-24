@@ -1,0 +1,96 @@
+@media (min-width: 768px) {
+    .home__container {
+        background-image: url("../../assets/home/background-home-tablet.jpg");
+        height: 100%;
+        align-items: center;
+    }
+
+    .main {
+        padding: 15% 0;
+    }
+
+    .home__text {
+        margin: 10% auto 12%;
+    }
+
+    .home__text h4 {
+        width: 55%;
+    }
+
+    .home__button-container,
+    .home__button {
+        width: 242px;
+        height: 242px;
+        margin: auto;
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .home__container {
+        background-image: url("../../assets/home/background-home-desktop.jpg");
+    }
+
+    .main {
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-between;
+        padding-top: 22%;
+        height: 100vh;
+    }
+
+    .home__text {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home__text h1 {
+        font-size: 7rem;
+    }
+
+    .home__text h4 {
+        width: 80%;
+        font-size: 1.125rem;
+        line-height: 2rem;
+        text-align: justify;
+    }
+
+    .home__text h2 {
+        font-size: 1.5rem;
+        letter-spacing: 0.2rem;
+    }
+    .home__button-container,
+    .home__button {
+        width: 274px;
+        height: 274px;
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .main {
+        padding-top: 15%;
+    }
+    .home__text {
+        height: 100%;
+    }
+    .home__text h1 {
+        font-size: 8rem;
+    }
+    .home__text h2 {
+        font-size:     1.6rem;
+        letter-spacing: 0.36rem;
+    }
+    .home__text h4 {
+        font-size: 1.2rem;
+        width: 65%;
+    }
+    .home__button-container,
+    .home__button {
+      position: fixed;
+      top: 43%;
+      right: 15%;
+    }
+
+}

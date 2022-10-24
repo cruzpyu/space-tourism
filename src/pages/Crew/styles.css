@@ -32,7 +32,7 @@
 
 .crew__title {
   color: #ffffff;
-  font-family: "Barlow Condensed";
+  font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
   margin-bottom: 9%;
 }
@@ -65,28 +65,30 @@
 .crew__role {
   font-size: 1.5rem;
   line-height: 2.313rem;
+  font-weight: 400;
 }
 
 .crew__name {
   font-size: 2.5rem;
+  font-weight: 400;
   line-height: 4rem;
-  margin-bottom: 4%;
 }
 
 .crew__bio {
   color: var(--soft-purple);
-  font-family: "Barlow", sans-serif;
-  font-size: 1rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.2rem;
   font-weight: lighter;
   line-height: 2rem;
-  margin: 4% 0;
+  margin: 7% 0;
   width: 570px;
 }
 
 .crew__picture {
   width: 50%;
 }
+
 .crew__picture img {
   margin-left: 5%;
   width: 61%;
-}
+} 

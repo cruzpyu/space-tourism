@@ -1,4 +1,5 @@
 import "./style.css";
+import "./mobile.css";
 import { useNavigate } from "react-router-dom";
 
 export default function Home() {

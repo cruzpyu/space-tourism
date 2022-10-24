@@ -1,48 +1,60 @@
 .home__container {
-    background-image: url("../../assets/home/background-home-desktop.jpg");
+    background-image: url("../../assets/home/background-home-mobile.jpg");
     font-family: "Barlow Condensed", sans-serif;
-  }
-  .main {
-    align-items: center;
-    display: flex;
+    padding: 0 1%;
+    background-size: cover;
     height: 100vh;
-    justify-content: space-between;
-    padding: 10% 6% 0 10%;
+}
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 35% 0 15%;
+    height: 100%;
 }
 .home__text {
     color: var(--white);
-    width: 40%;
+    width: 100%;
+    margin: 8% 0;
+    height: 100%;
 }
 .home__text h1 {
-    color: var(--0white);
+    font-size: 5rem;
+    margin: 2% auto;
+    color: var(--white);
     font-family: "Bellefair", serif;
-    font-size: 7rem;
     font-weight: 400;
-    margin: 4% 0;
 }
 .home__text h2 {
-    color: var(--soft-purple);
     letter-spacing: 0.3rem;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    text-align: center;
 }
 .home__text h4 {
+    font-size: 0.94rem;
     color: var(--soft-purple);
-    font-size: 1.3rem;
+    line-height: 1.7rem;
+    text-align: center;
     font-weight: lighter;
-    line-height: 2rem;
-    text-align: justify;
-
+    width: 95%;
+    margin: auto;
 }
-.home__button,
-.home__button-container {
+.home__button-container,
+.home__button {
+    width: 150px;
+    height: 150px;
+    font-size: 1rem;
     border-radius: 50%;
-    height: 280px;
-    width: 280px;
+   text-align: center;
 }
+
 .home__button {
     border: none;
     color: var(--dark-blue);
     font-family: "Bellefair", serif;
-    font-size: 1.7rem;
+    font-size: 1rem;
     font-weight: 500;
     letter-spacing: 0.3rem;
 }
@@ -52,7 +64,6 @@
     display: flex;
     justify-content: center;
     margin-right: 8%;
-
 }
 .home__button:hover {
     transform: scale(0.8);
@@ -66,5 +77,6 @@
 .home__text h1,
 .home__text h2,
 .home__button {
-  text-transform: uppercase;
+    text-transform: uppercase;
+    text-align: center;
 }

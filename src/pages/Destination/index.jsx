@@ -1,4 +1,5 @@
 import "./styles.css";
+import "./mobile.css";
 import data from "../../data.json";
 import { useState } from "react";
 

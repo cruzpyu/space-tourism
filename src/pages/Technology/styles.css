@@ -1,4 +1,4 @@
-.tech__container {
+  .tech__container {
     background-image: url("../../assets/technology/background-technology-desktop.jpg");
     padding-top: 10%;
 }
@@ -88,4 +88,4 @@
     font-weight: lighter;
     line-height: 2rem;
     width: 90%;
-}
+} 
