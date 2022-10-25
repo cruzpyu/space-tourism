@@ -10,14 +10,13 @@ export default function Crew() {
   return (
     <div className="crew__container container">
       <main className="crew__main">
-        <div className="crew__text-content">
-          <h1 className="crew__title">Meet your crew</h1>
-          <div className="crew__info">
-            <h2 className="crew__role">{role}</h2>
-            <h2 className="crew__name">{name}</h2>
-            <h2 className="crew__bio">{bio}</h2>
-          </div>
 
+        <h1 className="crew__title">Meet your crew</h1>
+
+        <div className="crew__picture">
+          <img src={images.png} alt={name} />
+        </div>
+        <div className="buttons__container">
           {people.map((element, index) => (
             <button
               className={`crew__buttons ${
@@ -28,9 +27,14 @@ export default function Crew() {
             ></button>
           ))}
         </div>
-        <div className="crew__picture">
-          <img src={images.png} alt={name} />
-        </div>
+        <section className="crew__text-content">
+          <div className="crew__info">
+            <h2 className="crew__role">{role}</h2>
+            <h2 className="crew__name">{name}</h2>
+            <h2 className="crew__bio">{bio}</h2>
+          </div>
+        </section>
+      
       </main>
     </div>
   );
