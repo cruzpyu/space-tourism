@@ -1,0 +1,157 @@
+@media (min-width: 768px) {
+    .destination__container {
+        background-image: url("../../assets/destination/background-destination-tablet.jpg");
+    }
+
+    .text,
+    .text::before {
+        font-size: 1.25rem;
+    }
+
+    .planet__img {
+        height: 400px;
+        margin: 15% auto 5%;
+        width: 400px;
+    }
+
+    .block__right nav {
+        padding: 0 20%;
+    }
+
+    .nav__destination {
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 4rem;
+        margin-bottom: 5%;
+    }
+
+    .description {
+        width: 70%;
+    }
+
+    .space-time {
+        display: flex;
+        padding: 0 15%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .destination__container {
+        background-image: url("../../assets/destination/background-destination-desktop.jpg");
+        flex-direction: row;
+        padding-top: 17.4%;
+        align-items: flex-start;
+        height: 100vh;
+    }
+
+    .text {
+        padding: 0;
+        margin: 0;
+    }
+
+    .block__right,
+    .block__left {
+        width: 50%;
+    }
+
+    .planet__img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .block__right {
+        align-items: flex-start;
+    }
+
+    .block__right nav {
+        padding: 0;
+        justify-content: flex-start;
+    }
+
+    .nav__destination {
+        font-size: 1rem;
+    }
+
+    .title {
+        text-align: left;
+        font-size: 5rem;
+        margin: 10% 0;
+    }
+
+    .description {
+        width: 90%;
+        text-align: justify;
+        margin: 0;
+    }
+
+    .line {
+        width: 90%;
+        margin: 5% 0 0;
+    }
+
+    .distance__value,
+    .travel-time__value,
+    .space-time {
+        margin-top: 10%;
+    }
+
+    .space-time {
+        margin: 0;
+        padding: 5% 20% 4.6% 0;
+        justify-content: space-between;
+    }
+
+    .space,
+    .time {
+        margin: 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    .destination__container {
+        padding: 12% 0;
+    }
+
+    .block__right,
+    .block__left {
+        width: 50%;
+    }
+
+    .block__left {
+        padding: 0;
+        margin-right: 20%;
+        align-items: flex-end;
+    }
+
+    .text {
+        align-self: flex-start;
+        margin: 0 0 7% 20%;
+    }
+
+    .planet__img {
+        height: 430px;
+        width: 430px;
+        margin: 0;
+    }
+
+    .title {
+        font-size: 6rem;
+        margin: 7% 0;
+    }
+
+    .description {
+        width: 65%;
+    }
+
+    .line {
+        width: 65%;
+    }
+
+    .space-time {
+        width: 85%;
+        text-align: left;
+        padding: 5% 20% 0 0;
+    }
+}

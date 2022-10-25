@@ -1,0 +1,138 @@
+.destination__container {
+  align-items: center;
+  background-image: url("../../assets/destination/background-destination-mobile.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+.distance__value,
+.travel-time__value,
+.distance,
+.travel-time,
+.description,
+.title {
+  text-align: center;
+}
+.distance,
+.distance__value,
+.nav__destination,
+.text,
+.title,
+.travel-time,
+.travel-time__value {
+  text-transform: uppercase;
+}
+
+.description,
+.distance,
+.nav__destination,
+.text,
+.text::before,
+.travel-time {
+  font-family: "Barlow Condensed";
+}
+.distance__value,
+.travel-time__value,
+.title {
+  font-family: "Bellefair";
+}
+
+.block__left {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5%;
+}
+.text,
+.text::before {
+  color: var(--white);
+  font-size: 1rem;
+}
+.text {
+  letter-spacing: 2.7px;
+  line-height: 19px;
+  padding-top: 50%;
+}
+
+.text::before {
+  font-weight: 700;
+  line-height: 1.1875rem;
+  letter-spacing: 2.7px;
+  padding-right: 10px;
+  opacity: 0.25;
+}
+
+.planet__img {
+  height: 170px;
+  margin: 15% auto 5%;
+  width: 170px;
+}
+
+.block__right nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6%;
+  padding: 0 6%;
+}
+
+.nav__destination {
+  background-color: transparent;
+  border: none;
+  color: var(--soft-purple);
+  font-size: 1rem;
+  letter-spacing: 2.3625px;
+  margin: 0 15px;
+  padding-bottom: 5px;
+}
+
+.border-active {
+  border-bottom: 3px solid var(--white);
+}
+
+.title {
+  color: var(--soft-purple);
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 4rem;
+}
+
+.description {
+  color: #d0d6f9;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5625rem;
+  margin: auto;
+
+  width: 90%;
+}
+
+.line {
+  background: #383b4b;
+  height: 1px;
+  margin: 5% auto;
+  width: 80%;
+}
+
+.space,
+.time {
+  margin: 8% auto;
+}
+
+.distance,
+.travel-time {
+  color: var(--soft-purple);
+  font-size: 0.875rem;
+  letter-spacing: 2.3625px;
+  line-height: 1.0625rem;
+}
+
+.distance__value,
+.travel-time__value {
+  color: var(--white);
+  font-size: 1.75rem;
+  line-height: 2rem;
+  margin-top: 2%;
+}
