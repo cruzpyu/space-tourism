@@ -31,8 +31,11 @@ export default function Technology() {
           <h2 className="tech__name">{name}</h2>
           <h2 className="tech__description">{description}</h2>
         </div>
-        <div className="tech__picture">
+        <div className="tech__picture-portrait">
           <img src={images.portrait} alt={name} />
+        </div>
+        <div className="tech__picture-landscape">
+          <img src={images.landscape} alt={name} />
         </div>
       </div>
     </div>

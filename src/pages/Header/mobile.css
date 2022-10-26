@@ -36,10 +36,6 @@
     border-bottom: 3px solid rgba(255, 255, 255, 0.5);
     padding: 35px 0 32px;
   }
-
-  .active {
-    border-bottom: 3px solid var(--white);
-  }
 }
 
 @media (min-width: 1024px) {
@@ -64,11 +60,9 @@
   }
 
   .nav__item {
-    border: none;
     color: rgba(255, 255, 255, 0.8);
     font-family: "Barlow Condensed", sans-serif;
     font-size: 1rem;
-
     list-style: none;
     padding: 35px 0;
   }

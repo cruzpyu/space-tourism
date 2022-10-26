@@ -1,5 +1,7 @@
 .crew__container {
-  background-image: url("../../assets/crew/background-crew-desktop.jpg");
+  background-image: url("../../assets/crew/background-crew-mobile.jpg");
+  background-size: cover;
+
 }
 
 .crew__main {
@@ -12,7 +14,7 @@
 }
 
 .crew__title {
-  color: #ffffff;
+  color: var(--white);
   font-family: "Barlow Condensed", sans-serif;
   width: 100%;
   text-align: center;
@@ -20,6 +22,7 @@
 .crew__title,
 .crew__title::before {
   font-size: 1rem;
+  font-weight: lighter;
   letter-spacing: 0.1688rem;
   line-height: 2.125rem;
   text-transform: uppercase;

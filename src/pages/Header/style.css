@@ -60,6 +60,9 @@
   content: "03";
 }
 
+.active {
+  border-bottom: 3px solid var(--white);
+}
 .icon-close {
   width: 6%;
   position: absolute;

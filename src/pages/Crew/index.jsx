@@ -1,4 +1,5 @@
 import "./styles.css";
+import "./breakpoints.css";
 import data from "../../data.json";
 import { useState } from "react";
 export default function Crew() {
