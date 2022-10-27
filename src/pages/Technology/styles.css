@@ -1,12 +1,27 @@
-  .tech__container {
-    background-image: url("../../assets/technology/background-technology-desktop.jpg");
-    padding-top: 10%;
+.tech__container {
+    background-image: url("../../assets/technology/background-technology-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 30% 0 10% 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tech__picture-portrait {
+    display: none;
+}
+
+.tech__picture-landscape img {
+    width: 100%;
+    height: 100%;
 }
 
 .content-container {
-    align-items: center;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
 }
 
 .tech__button {
@@ -15,77 +30,75 @@
     border-radius: 50%;
     color: var(--white);
     font-family: "Bellefair", serif;
-    font-size: 1.5rem;
-    height: 80px;
-    margin: 30% 0;
+    font-size: 1rem;
+    height: 40px;
     text-align: center;
-    width: 80px;
+    width: 40px;
 }
 
 .button-active {
-    background-color: white;
+    background-color: var(--white);
     color: black;
 }
 
 .tech__buttons button:hover {
-    border: 1px solid white;
+    border: 1px solidvar(--white);
     transition: all ease 0.5s;
-}
-
-.tech__info {
-    margin-left: 2%;
-    width: 45%;
 }
 
 .tech__buttons {
     display: flex;
-    flex-direction: column;
-    margin-left: 8%;
-    width: auto;
+    justify-content: space-evenly;
+    padding: 7% 15%;
 }
 
 .tech__title {
-    color: #FFFFFF;
-    font-family: 'Barlow Condensed';
-    font-size: 28px;
-    letter-spacing: 4.725px;
-    line-height: 34px;
-    margin-left: 9%;
-    text-transform: uppercase;
+    color: var(--white);
+    font-family: "Barlow Condensed";
+    font-size: 1rem;
+    font-weight: 100;
+    letter-spacing: 0.2953rem;
+    line-height: 2.125rem;
+    padding: 3% 0;
 }
 
 .tech__title::before {
     content: "03";
-    font-weight: 700;
-    margin-right: 1.5%;
     opacity: 0.5;
+    margin-right: 10px;
 }
 
 .tech__subtitle {
-    color: #D0D6F9;
-    font-family: 'Barlow Condensed';
-    font-size: 1.2rem;
+    color: var(--soft-purple);
+    font-family: "Barlow Condensed";
+    font-size: 1rem;
     font-weight: 400;
-    letter-spacing: 2.7px;
+    letter-spacing: 0.1688rem;
     line-height: 1.4rem;
-    text-transform: uppercase;
 }
 
 .tech__name {
-    color: #FFFFFF;
+    color: var(--white);
     font-family: "Bellefair", serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 64px;
-    margin: 6% 0;
-    text-transform: uppercase;
+    line-height: 2.5rem;
+    padding: 2% 1%;
+
 }
 
 .tech__description {
-    color: #D0D6F9;
-    font-family: 'Barlow condensed';
-    font-size: 1.1rem;
+    color: var(--soft-purple);
+    font-family: "Barlow condensed";
+    font-size: 1rem;
     font-weight: lighter;
     line-height: 2rem;
-    width: 90%;
-} 
+    text-align: center;
+    padding: 0 3%;
+}
+
+.tech__name,
+.tech__subtitle,
+.tech__title {
+    text-transform: uppercase;
+}

@@ -1,4 +1,5 @@
 import "./styles.css";
+import "./breakpoints.css";
 import data from "../../data.json";
 import { useState } from "react";
 
@@ -13,6 +14,12 @@ export default function Technology() {
       <div className="title-container">
         <h1 className="tech__title">Space Launch 101</h1>
       </div>
+      <div className="tech__picture-portrait">
+          <img src={images.portrait} alt={name} />
+        </div>
+        <div className="tech__picture-landscape">
+          <img src={images.landscape} alt={name} />
+        </div>
       <div className="content-container">
         <div className="tech__buttons">
           {technology.map((item, index) => (
@@ -31,12 +38,7 @@ export default function Technology() {
           <h2 className="tech__name">{name}</h2>
           <h2 className="tech__description">{description}</h2>
         </div>
-        <div className="tech__picture-portrait">
-          <img src={images.portrait} alt={name} />
-        </div>
-        <div className="tech__picture-landscape">
-          <img src={images.landscape} alt={name} />
-        </div>
+
       </div>
     </div>
   );

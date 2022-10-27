@@ -1,0 +1,115 @@
+@media (min-width: 768px) {
+    .tech__container {
+        background-image: url("../../assets/technology/background-technology-tablet.jpg");
+        padding: 20% 0 10% 0;
+    }
+
+    .title-container {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        padding-left: 5%;
+    }
+
+    .tech__button {
+        height: 60px;
+        font-size: 1.5rem;
+        width: 60px;
+    }
+
+    .tech__buttons {
+        padding: 7% 28%;
+    }
+
+    .tech__name {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .tech__description {
+        padding: 0 10%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .tech__container {
+        background-image: url("../../assets/technology/background-technology-desktop.jpg");
+
+        flex-direction: row;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .title-container {
+        position: absolute;
+        top: 22%;
+        left: 8%;
+        width: auto;
+    }
+
+    .tech__buttons {
+        flex-direction: column;
+        position: absolute;
+        top: 38%;
+        left: 4%;
+        padding: 0;
+        height: 300px;
+        font-size: 2rem;
+    }
+
+    .tech__picture-portrait {
+        display: flex;
+        order: 3;
+        height: 400px;
+        width: 430px;
+    }
+
+    .tech__picture-landscape {
+        display: none;
+    }
+
+    .tech__info {
+        width: 70%;
+        margin: 30px 0 0 150px;
+        text-align: left;
+    }
+
+    .tech__name {
+        font-size: 2.5rem;
+    }
+
+    .tech__description {
+        padding: 0;
+        text-align: left;
+        font-size: 1.125rem;
+    }
+}
+
+@media (min-width: 1440px) {
+    .tech__picture-portrait {
+        height: 515px;
+        width: 527px;
+    }
+    .tech__title {
+        font-size: 1.5rem;
+    }
+
+    .tech__info {
+        width: 60%;
+        margin: 10px 0 0 250px;
+    }
+    .tech__name {
+        font-size: 3.5rem;
+        line-height: 5rem;
+    }
+    .tech__button {
+        height: 80px;
+        font-size: 2rem;
+        width: 80px;
+    }
+    .tech__buttons {
+        top: 33%;
+        height: 380px;
+   
+    }
+}
